@@ -1,0 +1,6 @@
+{
+  "name": "مصلح فلاش SanDisk",
+  "description": "أداة متخصصة لإصلاح فلاش ديسك SanDisk Ultra Dual 128GB وحل مشكلة No Media واستعادة جدول التقسيم والفيرموير.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

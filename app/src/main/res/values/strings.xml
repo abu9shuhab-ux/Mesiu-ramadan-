@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">مصلح فلاش SanDisk</string>
+    <string name="title_usb_repair">أداة إصلاح SanDisk Ultra Dual 128GB</string>
+    <string name="desc_no_media_fix">حل مشكلة عدم قراءة الفلاش وظهور رسالة No Media</string>
+    <string name="tab_diagnostics">التشخيص والفحص</string>
+    <string name="tab_repair_wizard">معالج الإصلاح</string>
+    <string name="tab_low_level">إعادة تهيئة MBR</string>
+    <string name="tab_firmware_guide">دليل الفيرموير والـ MPTool</string>
+    <string name="connect_usb_prompt">يرجى توصيل الفلاش عبر منفذ USB-C (OTG) بالهاتف</string>
+    <string name="sandisk_detected">تم اكتشاف فلاش ديسك SanDisk بنجاح!</string>
+    <string name="sandisk_not_found">لم يتم العثور على فلاش متصل حالياً (يمكنك تشغيل الوضع التجريبي للاختبار)</string>
+    <string name="start_repair">بدء عملية الإصلاح وإعادة التهيئة</string>
+    <string name="no_media_detected">حالة العطل: خطأ No Media (NAND Offline / Corrupted MBR)</string>
+    <string name="rebuilding_partition">جاري إعادة بناء قطاع الإقلاع الرئيسي MBR وجدول الأقسام…</string>
+    <string name="repair_completed">تمت معالجة الفلاش بنجاح واستعادة السعة 128 جيجابايت!</string>
+</resources>

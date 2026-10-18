@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SanDisk Vendor ID 0x0781 (decimal 1921) -->
+    <usb-device vendor-id="1921" />
+    <!-- Generic USB Mass Storage Class (Class 8) -->
+    <usb-device class="8" />
+</resources>

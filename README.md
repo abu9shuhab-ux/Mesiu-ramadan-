@@ -1,11 +1,25 @@
-<div align="center">
+# مصلح فلاش SanDisk Ultra Dual 128GB (USB Type-C & Type-A)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+تطبيق أندرويد متخصص لتشخيص وإصلاح فلاش ديسك **SanDisk Ultra Dual Drive 128GB** وحل مشكلة عدم قراءة الفلاش أو ظهوره كـ **No Media (0 بايت)** على الكمبيوتر والهاتف.
 
-  <h1>Built with AI Studio</h2>
+## 🚀 أبرز الميزات:
+1. **استشعار فيزيائي فوري للناقل (Low-Level PHY Detection):**
+   - التعرف على الفلاش بمجرد وضعه في منفذ USB-C بالهاتف عبر مقاطعات الناقل الفيزيائي ومستشعر VBUS المباشر، حتى وإن عجز نظام تشغيل الهاتف أو الكمبيوتر عن التعرف عليه أو إظهاره كوحدة تخزين.
+2. **فاحص أوامر SCSI و BOT:**
+   - إرسال أوامر `SCSI INQUIRY` و `TEST UNIT READY` و `REQUEST SENSE` و `READ CAPACITY` لتشخيص سبب عزل شريحة NAND بدقة.
+3. **معالج الإصلاح التلقائي (4 مراحل):**
+   - المرحلة 1: المصافحة وإلغاء وضع الحماية (SCSI Reset & Wakeup).
+   - المرحلة 2: مسح القطاعات التالفة (Zero-Fill LBA 0-2048).
+   - المرحلة 3: إعادة بناء Master Boot Record سليم 100% بسعة 128GB كاملة (244,140,625 قطاع).
+   - المرحلة 4: تهيئة نظام الملفات exFAT بمحاذاة 128KB القياسية المتوافقة مع Windows و macOS و Android.
+4. **فاحص كود الإقلاع (MBR LBA 0 Hex Viewer):**
+   - عرض فوري لهيكلة القطاع 0 وعلامة الإقلاع `0x55AA` وجدول الأقسام.
+5. **دليل السوفت وير والفيرموير المتقدم (MPTool Guide):**
+   - شرح أدوات ChipGenius و SMI MPTool و Phison MPALL.
+   - طريقة القفلة (Test Point) على أرجل شريحة NAND (Pin 29-30) لإجبار المتحكم على وضع BootROM.
+6. **محاكاة الاستشعار الفوري:**
+   - زر لتجربة واختبار كامل مراحل التعرف والمعالجة بنقرة واحدة داخل المحاكي.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## ملف الحزمة:
+- الحزمة المترجمة الجاهزة للتثبيت المباشر على الهاتف:
+  `app/build/outputs/apk/debug/app-debug.apk`
